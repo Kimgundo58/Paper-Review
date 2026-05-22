@@ -1,6 +1,4 @@
-/.quarto/
-/_site/
-/site_libs/
-/reviews/*.html
-/reviews/*.json
-/reviews/index-listing.json
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
