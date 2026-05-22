@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "reviews/lstm.html",
+    "href": "reviews/lstm.html",
+    "title": "[논문리뷰] Long Short-Term Memory",
+    "section": "",
+    "text": "LSTM은 기존 RNN의 기울기 소실 문제를 해결하기 위해 제안된 모델입니다."
+  },
+  {
+    "objectID": "reviews/lstm.html#abstract",
+    "href": "reviews/lstm.html#abstract",
+    "title": "[논문리뷰] Long Short-Term Memory",
+    "section": "",
+    "text": "LSTM은 기존 RNN의 기울기 소실 문제를 해결하기 위해 제안된 모델입니다."
+  },
+  {
+    "objectID": "reviews/lstm.html#previous-study",
+    "href": "reviews/lstm.html#previous-study",
+    "title": "[논문리뷰] Long Short-Term Memory",
+    "section": "Previous Study",
+    "text": "Previous Study\n기존 RNN은 시퀀스가 길어질수록 gradient가 소실되는 문제가 있었습니다.\n\n\\[\n\\frac{\\partial L}{\\partial W} = \\sum_{t} \\frac{\\partial L_t}{\\partial W}\n\\]"
+  },
+  {
+    "objectID": "reviews/lstm.html#lstm-구조",
+    "href": "reviews/lstm.html#lstm-구조",
+    "title": "[논문리뷰] Long Short-Term Memory",
+    "section": "LSTM 구조",
+    "text": "LSTM 구조\n\nForget Gate\n\\[\nf_t = \\sigma(W_f \\cdot [h_{t-1}, x_t] + b_f)\n\\]\n\n\nInput Gate\n\\[\ni_t = \\sigma(W_i \\cdot [h_{t-1}, x_t] + b_i)\n\\]"
+  },
+  {
+    "objectID": "reviews/lstm.html#정리",
+    "href": "reviews/lstm.html#정리",
+    "title": "[논문리뷰] Long Short-Term Memory",
+    "section": "정리",
+    "text": "정리\n\n\n\n구분\nRNN\nLSTM\n\n\n\n\n기울기 소실\n발생\n해결\n\n\n장기 의존성\n어려움\n가능"
+  },
+  {
+    "objectID": "reviews/lstm.html#참고",
+    "href": "reviews/lstm.html#참고",
+    "title": "[논문리뷰] Long Short-Term Memory",
+    "section": "참고",
+    "text": "참고\n\n원본 논문 링크"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DL Paper Reviews",
+    "section": "",
+    "text": "딥러닝 논문을 읽고 정리한 리뷰 블로그입니다."
+  },
+  {
+    "objectID": "index.html#최근-리뷰",
+    "href": "index.html#최근-리뷰",
+    "title": "DL Paper Reviews",
+    "section": "최근 리뷰",
+    "text": "최근 리뷰\n전체 리뷰 보기 →"
+  },
+  {
+    "objectID": "reviews/index.html",
+    "href": "reviews/index.html",
+    "title": "논문 리뷰 목록",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nMar 29, 2026\n\n\n[논문리뷰] Long Short-Term Memory\n\n\nDL, RNN\n\n\n\n\n\n\nNo matching items"
+  }
+]
