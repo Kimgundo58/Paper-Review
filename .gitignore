@@ -1,4 +1,6 @@
 /.quarto/
 /_site/
-
-**/*.quarto_ipynb
+/site_libs/
+/reviews/*.html
+/reviews/*.json
+/reviews/index-listing.json
